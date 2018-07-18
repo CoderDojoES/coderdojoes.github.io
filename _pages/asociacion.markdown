@@ -5,7 +5,7 @@ permalink: /asociacion/
 ---
 CoderDojo España es una agrupación informal de Dojos activos en territorio español. Colabora con el movimiento CoderDojo internacional para fomentar e impulsar la iniciativa a nivel nacional, y especialmente para ofrecer apoyo y confianza a todos aquellos posibles futuros champions, que están pensando en dar ese primer paso para la apertura de un nuevo Dojo.
 
-Nuestros objetivos principales son los siguientes:
+# Objetivos de la asociación
 
 - Compartir conocimientos, recursos educativos, y documentación
 - Compartir la experiencia adquirida y asesorar a futuros Champions

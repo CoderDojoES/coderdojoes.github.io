@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html class="t-black">
-  {% include head.html %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="{{site.url}}/images/favicon.ico">
+  
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:200,300,400" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  </head>
   <body>
-    {% include navigation.html %}
+    <div id="forkongithub"><a target="_blank" href="https://github.com/CoderDojoES/coderdojoes.github.io">Fork me on GitHub</a></div>
+    
+    <div class="container-fluid">
+      <div id="header">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="logo">
+              <a href="{{ "/" | prepend: site.baseurl }}">
+                <img width="200px" src="{{site.url}}/images/logo.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <nav class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li><a class="{% if page.url contains '/asociacion/' %}active{% endif %}" href="{{ "/asociacion/" | prepend: site.baseurl }}">Asociación</a></li>
+              <li><a class="{% if page.url contains '/dojos/' %}active{% endif %}" href="{{ "/dojos/" | prepend: site.baseurl }}">Dojos</a></li>
+              <li><a class="{% if page.url contains '/noticias/' %}active{% endif %}" href="{{ "/noticias/" | prepend: site.baseurl }}">Noticias</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-    {{ content }}
+      <div id="content">
+        {{ content }}
+      </div>
 
-    {% include footer.html %}
+      <footer id="footer">
+          <div class="title"></div>
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <div class="text-left">
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="text-center">
+                CoderDojo España
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="text-right">
+                <ul>
+                  <li><a target="_blank" href="https://twitter.com/{{ site.twitterUsername }}"><span class="fa fa-twitter"></span></a></li>
+                  <li><a target="_blank" href="https://github.com/{{ site.githubUsername }}"><span class="fa fa-github"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </footer>
+
+    </div>
   </body>
 </html>
