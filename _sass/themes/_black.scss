@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Black Theme
+   ========================================================================== */
+
+.t-blue {
+
+  .c-navigation,
+  .c-header {
+    background: $c__black;
+  }
+
+  .c-article__main a:not(.c-btn) {
+    color: $c__black;
+  }
+
+  .c-footer a {
+    color: $c__black;
+  }
+}
