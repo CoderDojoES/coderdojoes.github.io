@@ -1,0 +1,11 @@
+---
+layout: page
+title: Dojos en España
+permalink: /dojos/
+---
+
+{% for post in site.categories.dojos %}
+    <article class="archive-item">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+{% endfor %}

@@ -1,7 +1,10 @@
 <nav class="c-navigation is-fixed">
   <div class="c-navigation__container u-container">
-    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Articles</a>
-    <a class="c-navigation__item {% if page.url == '/about/' %}is-active{% endif %}" href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+    <a href="{{ "/" | prepend: site.baseurl }}">
+      <img width="180px" src="{{site.url}}/images/logo.png" />
+    </a>
+    <a class="c-navigation__item {% if page.url == '/asociacion/' %}is-active{% endif %}" href="{{ "/asociacion/" | prepend: site.baseurl }}">Asociación</a>
+    <a class="c-navigation__item {% if page.url == '/dojos/' %}is-active{% endif %}" href="{{ "/dojos/" | prepend: site.baseurl }}">Dojos</a>
+    <a class="c-navigation__item {% if page.url == '/noticias/' %}is-active{% endif %}" href="{{ "/noticias/" | prepend: site.baseurl }}">Noticias</a>
   </div>
 </nav>
