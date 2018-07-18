@@ -29,7 +29,6 @@ twitterUsername: CoderDojo_ES
 # Build settings
 markdown: kramdown
 
-#permalink: /:year/:month/:title
 permalink: /:categories/:title
 markdown: kramdown
 include: [_pages]
