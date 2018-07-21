@@ -2,28 +2,55 @@
     .logo {
         margin: 15px 0 20px;
     }
-    ul {
+    .navbar {
         display:block;
+        margin:0;
+        padding:0;
         background: #fff;
-        border-bottom: 3px solid #333;
-        li {
-            list-style: none;
-            display: inline-block;
-            font-size: 1rem;
-            text-transform: uppercase;
-            a {
-                display: block;
-                padding: 10px 25px;
-                color: #000;
-                &:hover,
-                &.active {
-                    background: #333;
-                    color:#fff;
+        ul {
+            display:block;
+            background: #fff;
+            li {
+                list-style: none;
+                display: inline-block;
+                font-size: 14px;
+                text-transform: uppercase;
+                a {
+                    display: block;
+                    padding: 10px 25px;
+                    color: #000;
+                    border-bottom:3px solid #fff;
+                    &:hover,
+                    &.active {
+                        border-bottom-color: #333;
+                    }
                 }
             }
         }
     }
 }
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:991px){
+    #header {
+        .logo {
+            text-align: center;
+        }
+        .navbar {
+            ul {
+                background: #f0f0f0;
+                border-bottom: 3px solid #333;
+                li {
+                    display: block;
+                    a {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:543px){}
 
 #content {
     min-height: 700px;
@@ -33,12 +60,13 @@
         text-align: center;
         h1 {
             margin:0 0 40px;
-            font-size:3rem;
+            font-size:2.6rem;
             color:#000;
         }
     }
     .description {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        line-height: 1.6;
         font-weight: normal;
     }
     ul {
@@ -66,6 +94,10 @@
         }
     }
 }
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:991px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:543px){}
 
 #footer {
     padding:15px 20px;
@@ -87,3 +119,14 @@
         }
     }
 }
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:991px){
+    #footer {
+        .text-left,
+        .text-right {
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:543px){}
