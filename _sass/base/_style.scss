@@ -4,12 +4,11 @@
     }
     .navbar {
         display:block;
+        background: none;
         margin:0;
         padding:0;
-        background: #fff;
         ul {
             display:block;
-            background: #fff;
             li {
                 list-style: none;
                 display: inline-block;
@@ -19,10 +18,9 @@
                     display: block;
                     padding: 10px 25px;
                     color: #000;
-                    border-bottom:3px solid #fff;
                     &:hover,
                     &.active {
-                        border-bottom-color: #333;
+                        background: #fff;
                     }
                 }
             }
@@ -36,8 +34,8 @@
             text-align: center;
         }
         .navbar {
+            background: #f0f0f0;
             ul {
-                background: #f0f0f0;
                 border-bottom: 3px solid #333;
                 li {
                     display: block;
@@ -95,8 +93,41 @@
     }
 }
 @media only screen and (max-width:1199px){}
-@media only screen and (max-width:991px){}
-@media only screen and (max-width:767px){}
+@media only screen and (max-width:991px){
+    #content {
+        padding: 40px 20px;
+        .title {
+            h1 {
+                font-size:2.2rem;
+            }
+        }
+        .description {
+            font-size: 1rem;
+        }
+        article {
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px){
+    #content {
+        .title {
+            h1 {
+                font-size:2rem;
+            }
+        }
+        .description {
+            font-size: 1rem;
+        }
+        article {
+            h1 {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
 @media only screen and (max-width:543px){}
 
 #footer {
