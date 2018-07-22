@@ -7,7 +7,8 @@
     <link rel="shortcut icon" type="image/png" href="/images/favicon.ico">
   
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:200,300,400" type="text/css">
@@ -67,8 +68,8 @@
             <div class="col-xs-12 col-md-4">
               <div class="text-right">
                 <ul>
-                  <li><a target="_blank" href="https://twitter.com/{{ site.twitterUsername }}"><span class="fa fa-twitter"></span></a></li>
-                  <li><a target="_blank" href="https://github.com/{{ site.githubUsername }}"><span class="fa fa-github"></span></a></li>
+                  <li><a target="_blank" href="https://twitter.com/CoderDojo_es"><span class="fa fa-twitter"></span></a></li>
+                  <li><a target="_blank" href="https://github.com/CoderDojoES"><span class="fa fa-github"></span></a></li>
                 </ul>
               </div>
             </div>
