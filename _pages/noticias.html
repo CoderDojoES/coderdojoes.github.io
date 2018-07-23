@@ -4,11 +4,23 @@ title: Noticias
 permalink: /noticias/
 ---
 
-{% for post in site.categories.noticias %}
-    <article>
-        <h1>
-            <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{post.title}}</a>
-        </h1>
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-    </article>
-{% endfor %}
+<div class="posts">
+    {% for post in site.categories.noticias %}
+        <div class="noticia">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">
+                        <img class="img-fluid" src="{{ post.intro_image }}" alt="{{post.intro_title}}" />
+                    </a>
+                </div>
+                <div class="col-12 col-md-9">
+                    <h2>{{post.intro_title}}</h2>
+                    <p>{{ post.intro_desc }}</p>
+                    <div class="date">
+                        {{ post.date | date: "%b %-d, %Y" }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

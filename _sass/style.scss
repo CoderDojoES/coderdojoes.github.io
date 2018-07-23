@@ -49,11 +49,11 @@
 }
 @media only screen and (max-width:767px){}
 @media only screen and (max-width:543px){}
-
 #content {
     min-height: 700px;
     padding: 40px;
     background: #fff;
+    
     .title {
         text-align: center;
         h1 {
@@ -74,82 +74,10 @@
             list-style: circle;
         }
     }
-    article {
-        blockquote {
-            margin: 0 0 20px;
-            padding: 10px 20px;
-            background: #f0f0f0;
-            font-style: italic;
-        }
-        h1 {
-            font-size: 2rem;
-            font-weight: bold;
-            margin: 50px 0 10px;
-        }
-        img {
-            margin: 0 auto;
-            text-align: center;
-        }
-    }
-    #dojos {
-        article {
-            position: relative;
-            margin: 0 0 20px;
-            .image {
-                
-            }
-            .title {
-                position: absolute;
-                bottom:0;
-                left:0;
-                right: 0;
-                padding: 10px 20px;
-                text-align: center;
-                background: #000;
-                color: #fff;
-                a {
-                    color: #fff;
-                }
-            }
-        }
-    }
 }
 @media only screen and (max-width:1199px){}
-@media only screen and (max-width:991px){
-    #content {
-        padding: 40px 20px;
-        .title {
-            h1 {
-                font-size:2.2rem;
-            }
-        }
-        .description {
-            font-size: 1rem;
-        }
-        article {
-            h1 {
-                font-size: 1.6rem;
-            }
-        }
-    }
-}
-@media only screen and (max-width:767px){
-    #content {
-        .title {
-            h1 {
-                font-size:2rem;
-            }
-        }
-        .description {
-            font-size: 1rem;
-        }
-        article {
-            h1 {
-                font-size: 1.3rem;
-            }
-        }
-    }
-}
+@media only screen and (max-width:991px){}
+@media only screen and (max-width:767px){}
 @media only screen and (max-width:543px){}
 
 #footer {

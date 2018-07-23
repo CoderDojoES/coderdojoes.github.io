@@ -3,10 +3,12 @@ layout: post
 category: dojos
 
 # Propiedades del artículo
-title:  CoderDojo Murcia
+intro_title:  CoderDojo Murcia
 intro_image: /images/dojos/coderdojo-murcia.png
-description: Club gratuito de programación y robótica en Murcia organizado por la Asociación Programo Ergo Sum.
+intro_desc: Club gratuito de programación y robótica en Murcia organizado por la Asociación Programo Ergo Sum.
 ---
+
+# CoderDojo Murcia
 
 > CoderDojo Murcia es un Club gratuito de Programación y Robótica para niños, niñas y jóvenes de 10 a 17 años organizado por la Asociación Programo Ergo Sum y sus mentores voluntarios.
 

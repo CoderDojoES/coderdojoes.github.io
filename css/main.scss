@@ -4,13 +4,9 @@
 @charset "utf-8";
 
 @import
-  'vars/_colors.scss';
+  '_colors.scss';
 
 @import
-  'base/reset',
-  'base/style';
-  
-
-@import
-  'vendor/syntax-highlighting';
-
+  'reset',
+  'style',
+  'post';

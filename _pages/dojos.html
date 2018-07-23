@@ -3,18 +3,18 @@ layout: page
 title: Dojos en España
 permalink: /dojos/
 ---
-<div id="dojos">
+<div class="posts">
     {% for post in site.categories.dojos %}
         <div class="row">
             <div class="col-12 col-md-6">
-                <article>
+                <div class="dojo">
                     <div class="image">
-                        <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">
-                            <img class="img-fluid" src="{{ post.intro_image }}" alt="{{post.title}}" />
+                        <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">
+                            <img class="img-fluid" src="{{ post.intro_image }}" alt="{{post.intro_title}}" />
                         </a>
                     </div>
                     <div class="title">
-                        <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}">{{post.title}}</a>
+                        <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">{{post.intro_title}}</a>
                     </div>
                 </article>
             </div>
