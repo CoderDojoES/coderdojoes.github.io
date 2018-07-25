@@ -7,6 +7,23 @@ CoderDojo es una iniciativa sin ánimo de lucro nacida en Irlanda en 2011, que p
 
 Los clubes son organizados y gestionados por voluntarios y voluntarias (conocidos como champions), y cuentan con la participación de mentores, personas con conocimientos de lenguajes y herramientas de programación, que desinteresadamente dedican parte de su tiempo libre para guiar a los ninjas en el aprendizaje de las diferentes disciplinas, y lenguajes.
 
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oXEsbtod-tM"></iframe>
+
+
+## Dojos nacionales
+
+<div class="posts row">
+    {% for post in site.categories.dojos %}
+        <div class="col-6 col-md-3">
+            <div class="dojo">
+                <div class="image text-center">
+                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">
+                        <img width="200" class="img-fluid" src="{{ post.intro_image }}" alt="{{post.intro_title}}" />
+                    </a>
+                </div>
+                <div class="title">
+                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">{{post.intro_title}}</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 </div>
