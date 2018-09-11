@@ -1,8 +1,6 @@
-# www.coderdojo.es
+# Web de www.coderdojo.es
 
-> Web colaborativa de la Asociación CoderDojo España. 
-
-Si eres ninja, mentor o champion de algún dojo, puedes colaborar en el proyecto añadiendo contenido de últimas noticias, eventos, etc. además de modificar la programación y diseño de la web aportando "tu granito de código".
+> Si eres ninja, mentor o champion de algún dojo nacional, puedes colaborar en el proyecto añadiendo nuevos contenidos o aportando tu granito de arena en la programación de la web.
 
 ## Documentación
 
