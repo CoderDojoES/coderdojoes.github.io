@@ -22,6 +22,18 @@
                     &.active {
                         color: #111;
                     }
+                    &:hover.asociacion,
+                    &.active.asociacion {
+                        color: $color-blue;
+                    }
+                    &:hover.dojos,
+                    &.active.dojos {
+                        color: $color-green;
+                    }
+                    &:hover.noticias,
+                    &.active.noticias {
+                        color: $color-yellow;
+                    }
                 }
             }
         }
