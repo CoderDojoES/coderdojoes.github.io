@@ -1,47 +1,36 @@
-.posts .dojo {
-    position: relative;
-    margin: 0 0 20px;
-    .title {
-        position: absolute;
-        bottom:0;
-        left:0;
-        right: 0;
-        padding: 10px 20px;
-        text-align: center;
-        background: #000;
+#content #noticias {
+    .block-title {
+        background: $color-orange;
         color: #fff;
-        a {
-            color: #fff;
-        }
-    }
-}
-.posts .noticia {
-    padding: 10px;
-    margin: 0 0 20px;
-    border-bottom: 3px solid #f0f0f0;
-    h2 {
-        margin: 0 0 20px;
-        font-size: 1.4rem;
-    }
-    p {
-        margin: 0 0 20px;
-    }
-    .date {
-        text-align: right;
-        font-size: 0.9rem;
     }
 }
 
-article.post {
-    font-size: 1.1rem;
-    line-height: 1.6;
+#noticias .noticia {
+    font-size: 1.3rem;
+    .title {
+        margin: 0 0 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .date {
+        margin: 0 0 20px;
+        text-align: right;
+        font-size: 0.9rem;
+    }
+    a {
+        &:hover {
+            color: $color-orange;
+        }
+    }
+}
+
+#noticias article {
     color:#666;
     h1 {
         margin: 0 0 30px;
         padding:0;
         font-size: 2rem;
         color: #111;
-        font-weight: bold;
     }
     p {
         margin: 0 0 20px;
@@ -62,6 +51,10 @@ article.post {
         margin: 0 auto 50px;
     }
 }
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:991px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:543px){}
 @media only screen and (max-width:1199px){}
 @media only screen and (max-width:991px){}
 @media only screen and (max-width:767px){}

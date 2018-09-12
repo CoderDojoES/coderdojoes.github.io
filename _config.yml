@@ -13,21 +13,37 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CoderDojo España
+
 email: info@coderdojo.es
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://www.coderdojo.es # the base hostname & protocol for your site
 
 # SEO
-description: Asociación española de CoderDojo Foundation. Clubes gratuitos de programación para chicos y chicas de 7 a 17.
+meta:
+  title: CoderDojo España
+  description: Asociación española de CoderDojo Foundation. Clubes gratuitos de programación para chicos y chicas de 7 a 17.
+  keywords: coderdojo, coderdojo españa, asociación coderdojo, programación, club de programación
 
+# Collections
+collections:
+  dojos:
+    permalink: /:categories/:title
+    output: true
+  posts:
+    permalink: "/:categories/:year/:month/:day/:title"
+    output: true
+
+defaults:
+- scope:
+    path: _dojos
+    type: dojos
+- scope:
+    path: _posts
+    type: posts
 
 # Build settings
 markdown: kramdown
-
-permalink: /:categories/:title
-markdown: kramdown
-include: [_pages]
-exclude: [_site, README.md]
+include: [ _dojos, _pages, _posts ]
+exclude: [ _site, README.md ]
 sass:
   style: compressed
