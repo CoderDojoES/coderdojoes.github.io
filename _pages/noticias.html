@@ -1,26 +1,35 @@
 ---
-layout: page
-title: Noticias
+layout: default
 permalink: /noticias/
+meta:
+    title: Noticias
+    description: Últimas noticias sobre la Asociación CoderDojo España
+    keywords: coderdojo, coderdojo españa, noticias
 ---
 
-<div class="posts">
-    {% for post in site.categories.noticias %}
-        <div class="noticia">
+<div id="noticias">
+    
+    <div class="block-title">
+        <h1>Últimas noticias sobre la Asociación CoderDojo España</h1>
+        <p>La Asociación CoderDojo España es una agrupación informal de dojos activos en territorio español. Unidos llegamos más lejos ¡Únete a nosotros!</p>
+    </div>
+
+    <div class="block-description">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-3">
-                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">
-                        <img class="img-fluid" src="{{ post.intro_image }}" alt="{{post.intro_title}}" />
-                    </a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h2>{{post.intro_title}}</h2>
-                    <p>{{ post.intro_desc }}</p>
-                    <div class="date">
-                        {{ post.date | date: "%b %-d, %Y" }}
+                {% for post in site.categories.noticias %}
+                    <div class="noticia card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                          <div class="title">{{post.meta.title}}</div>
+                          <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+                          <div class="card-text mb-auto">{{ post.meta.description }}</div>
+                          <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">Leer más</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" src="{{ post.meta.image }}" alt="{{post.meta.title}}">
                     </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
-    {% endfor %}
+    </div>
+
 </div>
