@@ -1,22 +1,38 @@
 ---
-layout: page
-title: Dojos en España
+layout: default
 permalink: /dojos/
+meta:
+    title: Dojos
+    description: Dojos activos en España
+    keywords: coderdojo, coderdojo españa, dojos
 ---
 
-<div class="posts row">
-    {% for dojo in site.dojos %}
-        <div class="col-6 col-md-3">
-            <div class="dojo">
-                <div class="image text-center">
-                    <a href="{{ site.baseurl }}{{ dojo.url }}" title="{{dojo.intro_title}}">
-                        <img width="200" class="img-fluid" src="{{ dojo.intro_image }}" alt="{{dojo.intro_title}}" />
-                    </a>
-                </div>
-                <div class="title">
-                    <a href="{{ site.baseurl }}{{ dojo.url }}" title="{{dojo.intro_title}}">{{dojo.intro_title}}</a>
-                </div>
+<div id="dojos">
+
+    <div class="block-title">
+        <h1>Clubes gratuitos de programación (dojos) activos en España</h1>
+        <p>La Asociación CoderDojo España es una agrupación informal de dojos activos en territorio español. Unidos llegamos más lejos ¡Únete a nosotros!</p>
+    </div>
+
+    <div class="block-description">
+        <div class="container-fluid">
+            <div class="row">
+                {% for dojo in site.dojos %}
+                    <div class="col-6 col-md-3">
+                        <div class="dojo">
+                            <div class="image text-center">
+                                <a href="{{ site.baseurl }}{{ dojo.url }}" title="{{dojo.intro_title}}">
+                                    <img width="200" class="img-fluid" src="{{ dojo.intro_image }}" alt="{{dojo.intro_title}}" />
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="{{ site.baseurl }}{{ dojo.url }}" title="{{dojo.intro_title}}">{{dojo.intro_title}}</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
         </div>
-    {% endfor %}
+    </div>
+
 </div>
