@@ -1,26 +1,26 @@
 #header{
+    background: #f0f0f0;
     .logo {
-        margin: 15px 0 20px;
+        margin: 10px 0;
     }
     .navbar {
         display:block;
         background: none;
-        margin:0;
-        padding:0;
+        margin: 15px 0 0;
+        padding: 0;
         ul {
-            display:block;
+            display: block;
             li {
                 list-style: none;
                 display: inline-block;
-                font-size: 14px;
-                text-transform: uppercase;
+                font-size: 1.2rem;
                 a {
                     display: block;
                     padding: 10px 25px;
-                    color: #000;
+                    color: #333;
                     &:hover,
                     &.active {
-                        background: #fff;
+                        color: #111;
                     }
                 }
             }
@@ -34,13 +34,28 @@
             text-align: center;
         }
         .navbar {
+            margin: 0;
+            padding: 10px 0;
             background: #f0f0f0;
+            border-top: 3px solid #fff;
+            .navbar-toggler {
+                border: none;
+                .fa-bars {
+                    font-size: 1.5rem;
+                    color: #333;    
+                }
+            }
             ul {
-                border-bottom: 3px solid #333;
                 li {
                     display: block;
+                    padding: 10px 0;
                     a {
                         border: none;
+                        color: #333;  
+                        &:hover,
+                        &.active {
+                            color: #111;
+                        }
                     }
                 }
             }
@@ -53,34 +68,53 @@
 
 
 #content {
-    min-height: 700px;
-    padding: 40px;
-    background: #fff;
-    
-    .title {
+    min-height: 450px;
+    .block-title {
+        padding: 50px 0;
         text-align: center;
         h1 {
-            margin:0 0 40px;
-            font-size:2.6rem;
-            color:#000;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            font-size: 2.6rem;
+            font-weight: bold;
+        }
+        p {
+            max-width: 960px;
+            margin: 0 auto;
+            font-size: 1.5rem;
         }
     }
-    h2 {
-        margin:0 0 40px;
-        font-size:2rem;
-        color:#000;
-    }
-    .description {
-        font-size: 1.1rem;
-        line-height: 1.6;
-        font-weight: normal;
-    }
-    ul {
-        li {
+    .block-description {
+        padding: 80px 0;
+        font-size: 1.3rem;
+        background: #f0f0f0;
+        p {
+            margin: 0 0 30px;
+            padding: 0;
+        }
+        ul {
             margin: 0 0 0 20px;
-            padding: 5px;
-            list-style: circle;
+            li {
+                margin: 0 0 10px;
+            }
         }
+    }
+    .block-users {
+        padding: 80px 0;
+        font-size: 1.2rem;
+        color: #333;
+    }
+}
+#content #home {
+    .block-title {
+        background: $color-purple;
+        color: #fff;
+    }
+}
+#content #asociacion {
+    .block-title {
+        background: $color-blue;
+        color: #fff;
     }
 }
 @media only screen and (max-width:1199px){}
