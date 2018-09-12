@@ -4,7 +4,7 @@ category: dojos
 
 # Propiedades del artículo
 intro_title:  CoderDojo Valencia
-intro_image: /images/dojos/valencia.jpg
+intro_image: /_dojos/coderdojo-valencia/valencia.jpg
 ---
 
 # CoderDojo Valencia

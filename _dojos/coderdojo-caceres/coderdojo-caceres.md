@@ -4,7 +4,7 @@ category: dojos
 
 # Propiedades del artículo
 intro_title:  CoderDojo Cáceres
-intro_image: /images/dojos/caceres.jpg
+intro_image: /_dojos/coderdojo-caceres/caceres.jpg
 ---
 
 # CoderDojo Cáceres
