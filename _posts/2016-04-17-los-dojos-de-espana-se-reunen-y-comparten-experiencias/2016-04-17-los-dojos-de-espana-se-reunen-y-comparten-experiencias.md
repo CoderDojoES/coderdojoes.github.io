@@ -4,7 +4,7 @@ category: noticias
 
 # Propiedades del artículo
 intro_title: Los Dojos de España se reúnen y comparten experiencias
-intro_image: /images/noticias/2016-04-17-reunion-1.jpg
+intro_image: /_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-1.jpg
 intro_desc: Primera reunión de dojos españoles en las instalaciones de MediaLab Prado en Madrid.
 ---
 
@@ -16,11 +16,11 @@ El objetivo de la reunión era presentarnos a la CoderDojo Foundation que tambi�
 
 Además del día 15 de abril la mayoría de los CoderDojo asistentes se acercaron el sábado 16 a conocer CoderDojo Madrid en las instalaciones de MediaLab Prado. A todos les gustó la gran participación, el trabajo colaborativo de los ninjas y de sus padres y hasta compartieron, como se puede ver en la imagen y en el caso de CoderDojo Valencia, algunas de sus experiencias con los ninjas de AppInventor. Trajeron una placa de Mioio AppInventor que conectada a dos motores y a un sistema de engranajes permitía mover un robot con dos ruedas y una pinza (en primer término en la imagen), desde el dispositivo móvil. ¡Y todo programado por los ninjas! En este enlace se les puede ver en plena explicación.
 
-![](/images/noticias/2016-04-17-reunion-2.jpg)
+![](/_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-2.jpg)
 
 Durante la presentación de los CoderDojo de España aprendimos qué lenguajes de programación se aplican: Scratch, AppInventor, Java, HTML5, Sonic Pi, Processing, Minetest y muchas más herramientas que sirven como excusa para que los ninjas aprendan y desarrollen otras habilidades además de que se generan lazos de amistad entre ellos.
 
-![](/images/noticias/2016-04-17-reunion-3.jpg)
+![](/_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-3.jpg)
 
 La CoderDojo Foundation, con sede en Dublín, presentó alguna de las herramientas y mecanismos que desarrollan para los CoderDojo de todo el mundo. Por ejemplo cómo gestionar los grupos, la información de los padres y ninjas, cómo hacer las convocatorias y el seguimiento de la asistencia y premiar los éxitos en el trabajo realizado ofreciendo badges o insignias. Además también están desarrollando recursos para facilitar la difusión de CoderDojo, estos contenidos incluyen vídeos con explicaciones de en qué consiste el mentoring, cómo involucrar a los padres, etc. Todos están desarrolladas con software libre y están disponibles en español.
 
@@ -28,7 +28,7 @@ De la sesión entre los mentores de los CoderDojo de España hablamos de cómo m
 
 Todos los Dojos estuvimos de acuerdo en seguir trabajando en el compromiso y participación de los padres, en la necesidad de difundir las experiencias, en definir tareas a realizar y en dotar de herramientas a los que quieran incorporarse como mentores. Aunque ya estamos poniendo en práctica muchas iniciativas para seguir mejorando, como la página en Internet de CoderDojo.es, que incluye guías y tutoriales, la difusión de las sesiones con contenidos, como este blog, o la rápida respuesta ante peticiones de ayuda y es que cada sábado atendemos comentarios y demandas de padres que quieren conocer más sobre el proyecto.
 
-![](/images/noticias/2016-04-17-reunion-4.jpg)
+![](/_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-4.jpg)
 
 Respecto a las experiencias de trabajo sí comentamos que podemos desarrollar el vídeo como herramienta de difusión de conocimiento entre los ninjas y que sería adecuado elaborar materiales para grabar vídeo con contenido de interés. También aprendimos a organizar la tarea de los ninjas animándoles siempre a buscar en Internet, con criterio, aunque tenemos que identificar recursos que les aporten, a preguntar a sus compañeros y también, que para eso estamos aunque no como primer recurso, consultar al mentor. Además mencionamos que el idioma no es un obstáculo y que aunque haya recursos en inglés los ninjas los pueden utilizar como recursos muy útiles.
 
@@ -40,4 +40,4 @@ Y hasta aquí el resumen de la jornada del encuentro de CoderDojo de España que
 
 Los retos siguen siendo enormes porque cuando desde la CoderDojo Foundation mencionan la existencia de centenares de Dojos en Irlanda en España todavía estamos arrancando menos de una decena. Aunque estamos convencidos de que la iniciativa va a seguir creciendo, que los padres son excelentes prescriptores, que muchos de ellos serán mentores y que vamos a seguir trabajando para que la comunidad siga ampliándose.
 
-![](/images/noticias/2016-04-17-reunion-5.jpg)
+![](/_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-5.jpg)

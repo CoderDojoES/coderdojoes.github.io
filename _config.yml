@@ -24,8 +24,8 @@ description: Asociación española de CoderDojo Foundation. Clubes gratuitos de 
 
 # Build settings
 markdown: kramdown
-include: [_pages]
-exclude: [_site, README.md]
+include: [ _dojos, _pages, _posts ]
+exclude: [ _site, README.md ]
 sass:
   style: compressed
 
