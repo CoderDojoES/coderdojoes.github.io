@@ -49,6 +49,9 @@
 }
 @media only screen and (max-width:767px){}
 @media only screen and (max-width:543px){}
+
+
+
 #content {
     min-height: 700px;
     padding: 40px;
@@ -85,24 +88,36 @@
 @media only screen and (max-width:767px){}
 @media only screen and (max-width:543px){}
 
+
+
 #footer {
-    padding:15px 20px;
-    background: #333;
+    padding:50px 20px;
+    background: #222;
     color: #fff;
     font-size: 1rem;
     ul {
+        padding: 10px 0 0;
         li {
             display: inline-block;
             a {
+                padding: 5px;
                 color: #fff;
                 &:hover {
                     color: #f0f0f0;
                 }
             }
-            .fa {
-                font-size: 2rem;
+            .fab {
+                font-size: 2.5rem;
             }
         }
+    }
+    .description {
+        padding: 30px 0 0;
+        font-size: 1.2rem;
+    }
+    .copyright {
+        padding: 20px 0;
+        font-size: 0.8rem;
     }
 }
 @media only screen and (max-width:1199px){}
@@ -110,9 +125,23 @@
     #footer {
         .text-left,
         .text-right {
-            text-align: center;
+            text-align: center !important;
+        }
+        ul {
+            padding: 30px 0 0;
         }
     }
 }
 @media only screen and (max-width:767px){}
 @media only screen and (max-width:543px){}
+
+#copyright {
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    font-size: 0.9rem;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
