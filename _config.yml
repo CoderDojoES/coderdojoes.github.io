@@ -24,10 +24,23 @@ description: Asociación española de CoderDojo Foundation. Clubes gratuitos de 
 
 # Build settings
 markdown: kramdown
-
-permalink: /:categories/:title
-markdown: kramdown
 include: [_pages]
 exclude: [_site, README.md]
 sass:
   style: compressed
+
+collections:
+  dojos:
+    permalink: /:categories/:title
+    output: true
+  posts:
+    permalink: "/:categories/:year/:month/:day/:title"
+    output: true
+
+defaults:
+- scope:
+    path: _dojos
+    type: dojos
+- scope:
+    path: _posts
+    type: posts

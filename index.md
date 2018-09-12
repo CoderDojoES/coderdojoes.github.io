@@ -12,16 +12,16 @@ Los clubes son organizados y gestionados por voluntarios y voluntarias (conocido
 ## Dojos nacionales
 
 <div class="posts row">
-    {% for post in site.categories.dojos %}
+    {% for dojo in site.dojos %}
         <div class="col-6 col-md-3">
             <div class="dojo">
                 <div class="image text-center">
-                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">
-                        <img width="200" class="img-fluid" src="{{ post.intro_image }}" alt="{{post.intro_title}}" />
+                    <a href="{{ site.baseurl }}{{ dojo.url }}" title="{{dojo.intro_title}}">
+                        <img width="200" class="img-fluid" src="{{ dojo.intro_image }}" alt="{{dojo.intro_title}}" />
                     </a>
                 </div>
                 <div class="title">
-                    <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">{{post.intro_title}}</a>
+                    <a href="{{ site.baseurl }}{{ dojo.url }}" title="{{dojo.intro_title}}">{{dojo.intro_title}}</a>
                 </div>
             </div>
         </div>
