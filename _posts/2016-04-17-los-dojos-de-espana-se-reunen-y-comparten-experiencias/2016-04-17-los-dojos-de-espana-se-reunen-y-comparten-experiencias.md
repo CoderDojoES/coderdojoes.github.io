@@ -1,14 +1,13 @@
 ---
-layout: post
+layout: noticia
 category: noticias
 
-# Propiedades del artículo
-intro_title: Los Dojos de España se reúnen y comparten experiencias
-intro_image: /_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-1.jpg
-intro_desc: Primera reunión de dojos españoles en las instalaciones de MediaLab Prado en Madrid.
+meta:
+    title: Los Dojos de España se reúnen y comparten experiencias
+    description: Primera reunión de dojos españoles en las instalaciones de MediaLab Prado en Madrid.
+    keywords: coderdojo, coderdojo españa, experiencias, reunión
+    image: /_posts/2016-04-17-los-dojos-de-espana-se-reunen-y-comparten-experiencias/reunion-1.jpg
 ---
-
-# Los Dojos de España se reúnen y comparten experiencias
 
 El 15 de abril se celebró en Madrid, en las instalaciones de MediaLab Prado, una reunión entre la mayoría de CoderDojo de España que pertenecen a la Asociación CoderDojo España. Estaban todos convocados a la reunión aunque finalmente asistieron los CoderDojo de Bilbao, Murcia, Valencia, León y Madrid.
 

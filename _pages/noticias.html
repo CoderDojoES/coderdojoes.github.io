@@ -20,12 +20,12 @@ meta:
                 {% for post in site.categories.noticias %}
                     <div class="noticia card flex-md-row mb-4 box-shadow h-md-250">
                         <div class="card-body d-flex flex-column align-items-start">
-                          <div class="title">{{post.intro_title}}</div>
+                          <div class="title">{{post.meta.title}}</div>
                           <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
-                          <div class="card-text mb-auto">{{ post.intro_desc }}</div>
+                          <div class="card-text mb-auto">{{ post.meta.description }}</div>
                           <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.intro_title}}">Leer más</a>
                         </div>
-                        <img class="card-img-right flex-auto d-none d-md-block" src="{{ post.intro_image }}" alt="{{post.intro_title}}">
+                        <img class="card-img-right flex-auto d-none d-md-block" src="{{ post.meta.image }}" alt="{{post.meta.title}}">
                     </div>
                 {% endfor %}
             </div>
