@@ -32,7 +32,7 @@
                     }
                     &:hover.noticias,
                     &.active.noticias {
-                        color: $color-yellow;
+                        color: $color-orange;
                     }
                 }
             }
@@ -136,12 +136,6 @@
 #content #home {
     .block-title {
         background: $color-purple;
-        color: #fff;
-    }
-}
-#content #asociacion {
-    .block-title {
-        background: $color-blue;
         color: #fff;
     }
 }

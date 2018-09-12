@@ -1,0 +1,31 @@
+#content #asociacion {
+    .block-title {
+        background: $color-blue;
+        color: #fff;
+    }
+}
+#content .block-users {
+    padding: 80px 0;
+    font-size: 1rem;
+    color: #333;
+    .card {
+        margin: 0;
+        padding: 50px;
+        background: none;
+        border: none;
+        text-align: center;
+        img {
+            border-radius: 50%;
+        }
+        .card-title {
+            font-weight: bold;
+        }
+        .card-text {
+
+        }
+    }
+}
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:991px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:543px){}
