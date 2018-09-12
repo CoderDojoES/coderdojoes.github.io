@@ -32,24 +32,22 @@ meta:
     <div class="block-users">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img class="img-fluid img-circle" src="https://pbs.twimg.com/profile_images/629634647912267777/gOmLRG8A_400x400.png">
-                        <div class="card-body">
-                            <h5 class="card-title">Presidente</h5>
-                            <p class="card-text">Miguel Ángel Abellán</p>
+                {% for user in site.data.association %}
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="card">
+                            <img class="img-fluid" src="{{user.Image}}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{user.User}}</h5>
+                                <p class="card-text">{{user.Name}}</p>
+                                <!--
+                                <ul>
+                                    <li><a target="_blank" href="{{user.Twitter}}"><i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                                -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img class="img-fluid img-circle" src="https://pbs.twimg.com/profile_images/621002083366514688/5ObvJ7vZ_400x400.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title">Vicepresidente</h5>
-                            <p class="card-text">Raúl Concha</p>
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
