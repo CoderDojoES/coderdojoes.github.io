@@ -4,7 +4,7 @@ category: dojos
 
 meta:
     title: Murcia
-    description: Club gratuito de programación y robótica para jóvenes de 10 a 17 años organizado por la Asociación Programo Ergo Sum
+    description: Club gratuito de programación y robótica para jóvenes de 10 a 17 años
     keywords: coderdojo, coderdojo murcia, murcia
     image: /_dojos/murcia/murcia.png
 ---

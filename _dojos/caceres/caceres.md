@@ -6,7 +6,7 @@ meta:
     title: Cáceres
     description: Club gratuito de programación y robótica para jóvenes de 10 a 17 años
     keywords: coderdojo, coderdojo caceres, caceres
-    image: /_dojos/caceres/caceres.jpg
+    image: /_dojos/caceres/caceres.png
 ---
 
 # ¿Cuándo se realiza?
