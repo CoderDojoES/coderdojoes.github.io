@@ -46,6 +46,7 @@ defaults:
 
 include:
   - _pages
+  - _posts
 
 exclude:
   - _site
