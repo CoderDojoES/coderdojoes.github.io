@@ -14,6 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Build settings
+markdown: kramdown
+
 email: info@coderdojo.es
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://www.coderdojo.es # the base hostname & protocol for your site
@@ -41,9 +44,19 @@ defaults:
     path: _posts
     type: posts
 
-# Build settings
-markdown: kramdown
-include: [ _dojos, _pages, _posts ]
-exclude: [ _site, README.md ]
+include:
+  - _pages
+  - _posts
+
+exclude:
+  - _site
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
 sass:
   style: compressed
+
+# Plugins
+plugins:
+  - jekyll-sitemap
