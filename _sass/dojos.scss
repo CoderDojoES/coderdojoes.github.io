@@ -7,20 +7,14 @@
 
 #dojos .dojo {
     font-size: 1.3rem;
-    position: relative;
     margin: 0 0 20px;
+    text-align: center;
+    img {
+        margin: 0 0 20px;
+        border-radius: 50%;
+    }
     .title {
-        position: absolute;
-        bottom:0;
-        left:0;
-        right: 0;
-        padding: 10px 20px;
-        text-align: center;
-        background: #000;
-        color: #fff;
-        a {
-            color: #fff;
-        }
+        font-weight: bold;
     }
 }
 
