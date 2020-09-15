@@ -20,24 +20,12 @@ meta:
             <div class="row">
                 {% for dojo in site.data.dojos %}
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                        <div class="dojo">
-                            <img width="150px" height="150px" class="img-fluid" src="{{dojo.Logo}}">
-                            <h5 class="title">{{dojo.Name}}</h5>
-                        </div>
-
-                        <!--
-                        <p class="card-text">{{dojo.Address.Place}}</p>
-                        <p class="card-text">{{dojo.Address.Address}}</p>
-                        -->
-                        <!--
-                        {% for d in site.dojos %}
-                            {% if d.meta.title == dojo.Name %}
-                                <a href="{{ site.baseurl }}{{ d.url }}" title="{{d.meta.title}}">
-                                    {{d.meta.title}}
-                                </a>
-                            {% endif %}
-                        {% endfor %}
-                        -->
+                        <a target="_blank" href="{{ dojo.Redes.Twitter }}">
+                            <div class="dojo">
+                                <img width="150px" height="150px" class="img-fluid" src="/images/logos/{{dojo.Logo}}">
+                                <h5 class="title">{{dojo.Name}}</h5>
+                            </div>
+                        </a>
                     </div>
                 {% endfor %}
             </div>
