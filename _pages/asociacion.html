@@ -35,16 +35,13 @@ meta:
                 {% for user in site.data.association %}
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                         <div class="card">
-                            <img class="img-fluid" src="{{user.Image}}">
-                            <div class="card-body">
-                                <h5 class="card-title">{{user.User}}</h5>
-                                <p class="card-text">{{user.Name}}</p>
-                                <!--
-                                <ul>
-                                    <li><a target="_blank" href="{{user.Twitter}}"><i class="fab fa-twitter"></i></a></li>
-                                </ul>
-                                -->
-                            </div>
+                            <a target="_blank" href="{{ user.Twitter }}">
+                                <img class="img-fluid" src="/images/users/{{user.Image}}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{user.User}}</h5>
+                                    <p class="card-text">{{user.Name}}</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 {% endfor %}
