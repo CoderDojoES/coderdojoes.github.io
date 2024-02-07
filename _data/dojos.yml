@@ -1,10 +1,18 @@
-- Name: Bilbao
+- Name: Salamanca
   Address:
     Place: 
     Address: 
-  Logo: CoderdojoBio.png
+  Logo: coderdojoleon.png
   Redes:
-    Twitter: https://twitter.com/CoderdojoBio
+    Web: www.coderdojosalamanca.weebly.com
+
+- Name: Valencia
+  Address:
+    Place: 
+    Address: 
+  Logo: CoderDojoVLC.jpg
+  Redes:
+    Twitter: https://twitter.com/CoderDojoVLC
 
 - Name: Plasencia
   Address:
@@ -13,6 +21,14 @@
   Logo: coderdojo_CC.jpeg
   Redes:
     Twitter: https://www.coderdojoplasencia.wordpress.com
+
+- Name: Sevilla - La Rinconada
+  Address:
+    Place: 
+    Address: 
+  Logo: DojoLaRinconada.jpg
+  Redes:
+    Twitter: https://twitter.com/DojoLaRinconada
 
 - Name: León
   Address:
@@ -23,14 +39,6 @@
     Twitter: https://twitter.com/coderdojoleon
 
 
-- Name: Madrid - Biblioteca Ángel G
-  Address:
-    Place: 
-    Address: 
-  Logo: coderdojobag.jpg
-  Redes:
-    Twitter: https://twitter.com/coderdojobag
-
 - Name: Madrid - Majadahonda
   Address:
     Place: 
@@ -38,22 +46,6 @@
   Logo: coderdojomj.png
   Redes:
     Twitter: https://twitter.com/coderdojomj
-
-- Name: Madrid - Medialab-Prado
-  Address:
-    Place: 
-    Address: 
-  Logo: CoderDojoMLP.jpeg
-  Redes:
-    Twitter: https://twitter.com/CoderDojoMLP
-
-- Name: Madrid - Salesforce
-  Address:
-    Place: 
-    Address: 
-  Logo: salesforceorg.png
-  Redes:
-    Twitter: https://twitter.com/salesforceorg
 
 - Name: Murcia
   Address:
@@ -63,18 +55,3 @@
   Redes:
     Twitter: https://twitter.com/CoderDojoMurcia
 
-- Name: Sevilla - La Rinconada
-  Address:
-    Place: 
-    Address: 
-  Logo: DojoLaRinconada.jpg
-  Redes:
-    Twitter: https://twitter.com/DojoLaRinconada
-
-- Name: Valencia
-  Address:
-    Place: 
-    Address: 
-  Logo: CoderDojoVLC.jpg
-  Redes:
-    Twitter: https://twitter.com/CoderDojoVLC
