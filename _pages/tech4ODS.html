@@ -1,0 +1,52 @@
+---
+layout: default
+permalink: /tech4ODS/
+meta:
+    title: Desafío tech4ODS
+    description: Os presentamos Tech4ODS un apasionante RETO tecnológico organizado por CoderDojo España. 
+    keywords: coderdojo, coderdojo españa, asociación coderdojo, tech4ODS, ODS, Objetivos desarrollo sostenible, Agenda 2030
+---
+
+<div id="tech4ODS">
+    
+    <div class="block-title">
+        <h1>Participa en Tech4ODS, el evento final se celebrará en Salamanca el 29 de junio de 2024</h1>
+        <p>La Asociación CoderDojo España es una agrupación informal de dojos activos en territorio español. Unidos llegamos más lejos ¡Únete a nosotros!</p>
+    </div>
+
+    <div class="block-description">
+        <div class="container-fluid">
+            <p>Objetivos de la Asociación CoderDojo España</p>
+            <ul>
+                <li><i class="fas fa-caret-right"></i> Compartir conocimientos, recursos educativos, y documentación</li>
+                <li><i class="fas fa-caret-right"></i> Compartir la experiencia adquirida y asesorar a futuros Champions</li>
+                <li><i class="fas fa-caret-right"></i> Impulsar la creación de nuevos dojos</li>
+                <li><i class="fas fa-caret-right"></i> Impulsar el reclutamiento de mentores a nivel local o regional</li>
+                <li><i class="fas fa-caret-right"></i> Compartir gestiones administrativas u organizativas (asociación, cumplimiento de la legislación, etc.)</li>
+                <li><i class="fas fa-caret-right"></i> Búsqueda común de financiación y patrocinio a nivel nacional</li>
+                <li><i class="fas fa-caret-right"></i> Promover y publicitar la red de Dojos en eventos regionales o nacionales</li>
+            </ul>
+        </div>        
+    </div>
+
+    <div class="block-users">
+        <div class="container-fluid">
+            <div class="row">
+                {% for user in site.data.association %}
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="card">
+                            <a target="_blank" href="{{ user.Twitter }}">
+                                <img class="img-fluid" src="/images/users/{{user.Image}}">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{user.User}}</h5>
+                                    <p class="card-text">{{user.Name}}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>
