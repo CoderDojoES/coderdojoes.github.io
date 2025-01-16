@@ -1,35 +1,3 @@
-- Name: Salamanca
-  Address:
-    Place: 
-    Address: 
-  Logo: coderdojoleon.png
-  Redes:
-    Web: https://www.coderdojosalamanca.weebly.com
-
-- Name: Valencia
-  Address:
-    Place: 
-    Address: 
-  Logo: CoderDojoVLC.jpg
-  Redes:
-    Twitter: https://twitter.com/CoderDojoVLC
-
-- Name: Plasencia
-  Address:
-    Place: 
-    Address: Avda. Extremadura, 9
-  Logo: coderdojo_CC.jpeg
-  Redes:
-    Twitter: https://www.coderdojoplasencia.wordpress.com
-
-- Name: Sevilla - La Rinconada
-  Address:
-    Place: 
-    Address: 
-  Logo: DojoLaRinconada.jpg
-  Redes:
-    Twitter: https://twitter.com/DojoLaRinconada
-
 - Name: León
   Address:
     Place: 
@@ -38,8 +6,15 @@
   Redes:
     Twitter: https://twitter.com/coderdojoleon
 
-
 - Name: Madrid - Majadahonda
+  Address:
+    Place: 
+    Address: 
+  Logo: coderdojomj.png
+  Redes:
+    Twitter: https://twitter.com/coderdojomj
+
+- Name: Madrid - Matadero
   Address:
     Place: 
     Address: 
@@ -55,3 +30,34 @@
   Redes:
     Twitter: https://twitter.com/CoderDojoMurcia
 
+- Name: Plasencia
+  Address:
+    Place: 
+    Address: Avda. Extremadura, 9
+  Logo: coderdojo_CC.jpeg
+  Redes:
+    Twitter: https://www.coderdojoplasencia.wordpress.com
+    
+- Name: Salamanca
+  Address:
+    Place: 
+    Address: 
+  Logo: coderdojoleon.png
+  Redes:
+    Web: https://www.coderdojosalamanca.weebly.com
+
+- Name: Sevilla - La Rinconada
+  Address:
+    Place: 
+    Address: 
+  Logo: DojoLaRinconada.jpg
+  Redes:
+    Twitter: https://twitter.com/DojoLaRinconada
+
+- Name: Valencia
+  Address:
+    Place: 
+    Address: 
+  Logo: CoderDojoVLC.jpg
+  Redes:
+    Twitter: https://twitter.com/CoderDojoVLC
